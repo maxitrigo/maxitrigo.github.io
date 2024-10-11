@@ -1,58 +1,40 @@
-# 👋 Hola, soy **Maxi Trigo**
+# Maxi Trigo
+=============================
 
-[![GitHub followers](https://img.shields.io/github/followers/maxitrigo?label=Follow&style=social)](https://github.com/maxitrigo)
-[![GitHub](https://img.shields.io/badge/GitHub-maxitrigo-%23121011?style=flat&logo=github&logoColor=white)](https://github.com/maxitrigo)
+[![Build and Deploy](https://github.com/maxitrigo/[tu-repositorio]/actions/workflows/deploy.yml/badge.svg)](https://github.com/maxitrigo/[tu-repositorio]/actions/workflows/deploy.yml)
+[![Docker Pulls](https://img.shields.io/docker/pulls/maxitrigo/[tu-imagen-docker].svg)](https://hub.docker.com/r/maxitrigo/[tu-imagen-docker])
 
----
+## Descripción del proyecto
+Nestjs API utilizando Node.js, TypeScript y PostgreSQL como base de datos. La aplicación utiliza React como frontend, Nginx como servidor web y Docker para contenerizar la aplicación. La integración continua se realiza con GitHub Actions y se despliega en AWS.
 
-### Desarrollador **Full-Stack**  
-Soy un apasionado por la creación de **aplicaciones escalables** y **eficientes**. Colaboro en **proyectos de código abierto** y disfruto aprender y adoptar nuevas tecnologías.
+## Características
+* **API RESTful**: Desarrollada con Nestjs y TypeScript
+* **Base de datos**: Utiliza PostgreSQL para almacenar y recuperar datos
+* **Frontend**: Construido con React para una experiencia de usuario interactiva
+* **Servidor web**: Utiliza Nginx para servir la aplicación
+* **Contenedores**: Utiliza Docker para contenerizar la aplicación y Dockerhub para almacenar la imagen
+* **Integración continua**: Utiliza GitHub Actions para automatizar la compilación y despliegue
+* **Despliegue**: Desplegado en AWS para una escalabilidad y disponibilidad máximas
+* **Estado de Redux**: Utiliza Redux para gestionar el estado de la aplicación
 
----
+## Instalación
+### Requisitos previos
+* Node.js 14 o superior
+* npm o yarn para gestionar dependencias
+* Docker para contenerizar la aplicación
+* AWS para desplegar la aplicación
 
-## 🚀 Tecnologías y Habilidades
+### Pasos de instalación
+1. Clona el repositorio: `git clone https://github.com/maxitrigo/[tu-repositorio].git`
+2. Instala las dependencias: `npm install` o `yarn install`
+3. Construye la imagen de Docker: `docker build -t maxitrigo/[tu-imagen-docker] .`
+4. Despliega la aplicación en AWS: Sigue las instrucciones de despliegue en AWS
 
-**Frontend:**
-- [React](https://reactjs.org/) 
-- [Redux](https://redux.js.org/) 
-- JavaScript 
-- TypeScript 
+## Contribución
+Si deseas contribuir a este proyecto, por favor, crea un pull request con tus cambios y estaré encantado de revisarlos.
 
-**Backend:**
-- [NestJS](https://nestjs.com/) 
-- Node.js 
-- PostgreSQL 
+## Licencia
+Este proyecto está bajo la licencia MIT.
 
-**DevOps:**
-- [Docker](https://www.docker.com/) 
-- DockerHub 
-- [Nginx](https://www.nginx.com/) 
-- AWS 
-
-**Integraciones:**
-- GitHub Actions 
-
----
-
-## 🌟 Proyectos Destacados
-
-### [yochambeo.com](https://yochambeo.com)
-_Plataforma para conectar y coordinar actividades de manera eficiente._  
-**Tecnologías**: NestJS, React, PostgreSQL
-
----
-
-## 🔥 Mi Racha de Commits
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=maxitrigo&theme=dark&hide_border=true&border_radius=5)](https://git.io/streak-stats)
-
----
-
-## 📫 Contacto
-
-- **Email**: [maxitrigo@gmail.com](mailto:maxitrigo@gmail.com)
-- **GitHub**: [github.com/maxitrigo](https://github.com/maxitrigo)
-
----
-
-⭐️ _Si te gustó mi trabajo, ¡considerá seguirme o dejar una estrella en mis proyectos!_ 😊
+## Contacto
+Maxi Trigo - [maxi.trigo@email.com](mailto:maxi.trigo@email.com) - [github.com/maxitrigo](https://github.com/maxitrigo)
