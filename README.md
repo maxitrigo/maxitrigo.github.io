@@ -1,152 +1,40 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi CV</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+# Hola, soy [Tu Nombre] 👋
 
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #000;
-            color: #fff;
-            margin: 0;
-            padding: 0;
-        }
+[![GitHub followers](https://img.shields.io/github/followers/tuusuario?label=Follow&style=social)](https://github.com/tuusuario)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/tuusuario)
 
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 40px;
-        }
+Soy un **desarrollador web** especializado en tecnologías como **JavaScript, Next.js y Node.js**. Me encanta crear soluciones innovadoras y trabajar en proyectos de código abierto.
 
-        h1, h2, h3 {
-            color: #fff;
-            font-weight: 800;
-            margin: 0 0 10px;
-        }
+## 🚀 Tecnologías y Habilidades
 
-        h1 {
-            font-size: 3rem;
-            text-align: center;
-        }
+- **Frontend**: React, Next.js, HTML5, CSS3, Tailwind CSS
+- **Backend**: Node.js, Express, API REST, GraphQL
+- **Bases de Datos**: MongoDB, MySQL, PostgreSQL
+- **Herramientas**: Git, GitHub, Docker, AWS, Vercel
+- **Otras habilidades**: Testing (Jest, Cypress), Arquitectura Serverless
 
-        h2 {
-            font-size: 2rem;
-            border-bottom: 1px solid #333;
-            padding-bottom: 10px;
-        }
+## 🌟 Proyectos Destacados
 
-        p, li {
-            font-size: 1.1rem;
-            line-height: 1.6;
-            color: #e0e0e0;
-        }
+### [Proyecto 1](https://github.com/tuusuario/proyecto1)
+_Descripción breve del proyecto 1_  
+Tecnologías: Next.js, Tailwind CSS, MongoDB
 
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
+### [Proyecto 2](https://github.com/tuusuario/proyecto2)
+_Descripción breve del proyecto 2_  
+Tecnologías: Node.js, Express, PostgreSQL
 
-        .header p {
-            margin: 10px 0;
-        }
+## 📊 Estadísticas de GitHub
 
-        .skills {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 20px;
-            margin: 20px 0;
-        }
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=tuusuario&show_icons=true&theme=dark&count_private=true)
 
-        .skill-item {
-            background-color: #111;
-            border: 1px solid #333;
-            border-radius: 8px;
-            padding: 20px;
-            text-align: center;
-            font-weight: 600;
-        }
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tuusuario&layout=compact&theme=dark)
 
-        a {
-            color: #0070f3;
-            text-decoration: none;
-        }
+## 📫 Contacto
 
-        a:hover {
-            text-decoration: underline;
-        }
+- **Email**: [tucorreo@mail.com](mailto:tucorreo@mail.com)
+- **LinkedIn**: [linkedin.com/in/tuusuario](https://linkedin.com/in/tuusuario)
+- **GitHub**: [github.com/tuusuario](https://github.com/tuusuario)
 
-        .experience-item {
-            margin-bottom: 30px;
-        }
+---
 
-        .experience-item h3 {
-            margin-bottom: 5px;
-            font-weight: 600;
-        }
-
-        .experience-item p {
-            font-size: 1rem;
-            margin: 0;
-        }
-    </style>
-</head>
-<body>
-
-    <div class="container">
-        <div class="header">
-            <h1>Tu Nombre</h1>
-            <p><a href="mailto:tucorreo@mail.com">tucorreo@mail.com</a> | <a href="https://github.com/tuusuario" target="_blank">GitHub</a> | <a href="https://linkedin.com/in/tuusuario" target="_blank">LinkedIn</a></p>
-        </div>
-
-        <section>
-            <h2>Perfil</h2>
-            <p>Soy un programador enfocado en crear experiencias de usuario rápidas y accesibles, con un fuerte enfoque en tecnologías JavaScript modernas, como Next.js y React.</p>
-        </section>
-
-        <section>
-            <h2>Habilidades</h2>
-            <div class="skills">
-                <div class="skill-item">Next.js</div>
-                <div class="skill-item">React</div>
-                <div class="skill-item">Node.js</div>
-                <div class="skill-item">TypeScript</div>
-                <div class="skill-item">API REST & GraphQL</div>
-                <div class="skill-item">Tailwind CSS</div>
-            </div>
-        </section>
-
-        <section>
-            <h2>Experiencia</h2>
-            <div class="experience-item">
-                <h3>Desarrollador Full Stack - Empresa XYZ</h3>
-                <p><i>Marzo 2022 - Presente</i></p>
-                <ul>
-                    <li>Desarrollo de aplicaciones web escalables utilizando Next.js y React.</li>
-                    <li>Implementación de arquitectura serverless con AWS y Vercel.</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <h3>Programador Freelance</h3>
-                <p><i>Agosto 2020 - Febrero 2022</i></p>
-                <ul>
-                    <li>Diseño y desarrollo de sitios web modernos con performance optimizada.</li>
-                    <li>Integración de soluciones backend con Node.js y bases de datos NoSQL.</li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <h2>Educación</h2>
-            <div class="experience-item">
-                <h3>Licenciatura en Ciencias de la Computación - Universidad ABC</h3>
-                <p><i>2018 - 2022</i></p>
-            </div>
-        </section>
-    </div>
-
-</body>
-</html>
+⭐️ _Si te gustó mi trabajo, ¡considerá seguirme o dejar una estrella en mis proyectos!_ 😊
