@@ -1,4 +1,4 @@
-# 🖋️ Hola, soy **Maxi Trigo**
+# 👋 Hola, soy **Maxi Trigo**
 
 [![GitHub followers](https://img.shields.io/github/followers/maxitrigo?label=Follow&style=social)](https://github.com/maxitrigo)
 [![GitHub](https://img.shields.io/badge/GitHub-maxitrigo-%23121011?style=flat&logo=github&logoColor=white)](https://github.com/maxitrigo)
@@ -10,7 +10,7 @@ Soy un apasionado por la creación de **aplicaciones escalables** y **eficientes
 
 ---
 
-## 🎩 Tecnologías y Habilidades
+## 🚀 Tecnologías y Habilidades
 
 **Frontend:**
 - [React](https://reactjs.org/) 
@@ -37,7 +37,7 @@ Soy un apasionado por la creación de **aplicaciones escalables** y **eficientes
 ## 🌟 Proyectos Destacados
 
 ### [yochambeo.com](https://yochambeo.com)
-*Plataforma para conectar y coordinar actividades de manera eficiente.*  
+_Plataforma para conectar y coordinar actividades de manera eficiente._  
 **Tecnologías**: NestJS, React, PostgreSQL
 
 ---
@@ -56,9 +56,3 @@ Soy un apasionado por la creación de **aplicaciones escalables** y **eficientes
 ---
 
 ⭐️ _Si te gustó mi trabajo, ¡considerá seguirme o dejar una estrella en mis proyectos!_ 😊
-
----
-
-<div align="center" style="border-top: 1px solid #ccc; margin-top: 20px; padding-top: 10px;">
-  <i style="font-style: italic;">“El éxito es la suma de pequeños esfuerzos repetidos día tras día.”</i>
-</div>
