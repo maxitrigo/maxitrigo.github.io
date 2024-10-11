@@ -1,6 +1,6 @@
 # Hola, soy [Tu Nombre] 👋
 
-[![GitHub followers](https://img.shields.io/github/followers/tuusuario?label=Follow&style=social)](https://github.com/maxitrigo
+[![GitHub followers](https://img.shields.io/github/followers/tuusuario?label=Follow&style=social)](https://github.com/maxitrigo)
 
 Soy un **desarrollador web** especializado en tecnologías como **JavaScript, Next.js y Node.js**. Me encanta crear soluciones innovadoras y trabajar en proyectos de código abierto.
 
