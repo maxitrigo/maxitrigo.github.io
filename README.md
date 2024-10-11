@@ -1,4 +1,4 @@
-# 👋 Hola, soy **Maxi Trigo**
+# 🖋️ Hola, soy **Maxi Trigo**
 
 [![GitHub followers](https://img.shields.io/github/followers/maxitrigo?label=Follow&style=social)](https://github.com/maxitrigo)
 [![GitHub](https://img.shields.io/badge/GitHub-maxitrigo-%23121011?style=flat&logo=github&logoColor=white)](https://github.com/maxitrigo)
@@ -6,30 +6,30 @@
 ---
 
 ### Desarrollador **Full-Stack**  
-Soy un apasionado por la creación de **aplicaciones escalables** y **eficientes**. Disfruto colaborar en **proyectos de código abierto** y siempre estoy buscando aprender y adoptar nuevas tecnologías.
+Soy un apasionado por la creación de **aplicaciones escalables** y **eficientes**. Colaboro en **proyectos de código abierto** y disfruto aprender y adoptar nuevas tecnologías.
 
 ---
 
-## 🚀 Tecnologías y Habilidades
+## 🎩 Tecnologías y Habilidades
 
-**Frontend**:
+**Frontend:**
 - [React](https://reactjs.org/) 
 - [Redux](https://redux.js.org/) 
 - JavaScript 
 - TypeScript 
 
-**Backend**:
+**Backend:**
 - [NestJS](https://nestjs.com/) 
 - Node.js 
 - PostgreSQL 
 
-**DevOps**:
+**DevOps:**
 - [Docker](https://www.docker.com/) 
 - DockerHub 
 - [Nginx](https://www.nginx.com/) 
 - AWS 
 
-**Integraciones**:
+**Integraciones:**
 - GitHub Actions 
 
 ---
@@ -37,7 +37,7 @@ Soy un apasionado por la creación de **aplicaciones escalables** y **eficientes
 ## 🌟 Proyectos Destacados
 
 ### [yochambeo.com](https://yochambeo.com)
-_Plataforma para conectar y coordinar actividades de manera eficiente._  
+*Plataforma para conectar y coordinar actividades de manera eficiente.*  
 **Tecnologías**: NestJS, React, PostgreSQL
 
 ---
@@ -59,6 +59,6 @@ _Plataforma para conectar y coordinar actividades de manera eficiente._
 
 ---
 
-<div align="center">
-  <i>“El éxito es la suma de pequeños esfuerzos repetidos día tras día.”</i>
+<div align="center" style="border-top: 1px solid #ccc; margin-top: 20px; padding-top: 10px;">
+  <i style="font-style: italic;">“El éxito es la suma de pequeños esfuerzos repetidos día tras día.”</i>
 </div>
