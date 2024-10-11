@@ -28,6 +28,8 @@ Tecnologías: Node.js, Express, PostgreSQL
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=maxitrigo&layout=compact&theme=dark)
 
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=maxitrigo&theme=dark)](https://git.io/streak-stats)
+
 ## 📫 Contacto
 
 - **Email**: [tucorreo@mail.com](mailto:tucorreo@mail.com)
