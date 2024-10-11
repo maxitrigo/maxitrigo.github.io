@@ -1,39 +1,45 @@
-# Hola, soy [Tu Nombre] 👋
+ # Hola, soy **Maxi Trigo** 👋
 
-[![GitHub followers](https://img.shields.io/github/followers/tuusuario?label=Follow&style=social)](https://github.com/maxitrigo)
+[![GitHub followers](https://img.shields.io/github/followers/maxitrigo?label=Follow&style=social)](https://github.com/maxitrigo)
 
-Soy un **desarrollador web** especializado en tecnologías como **JavaScript, Next.js y Node.js**. Me encanta crear soluciones innovadoras y trabajar en proyectos de código abierto.
+Soy un **desarrollador full-stack** apasionado por la creación de aplicaciones eficientes y escalables. Me especializo en tecnologías modernas y disfruto trabajar en entornos de **código abierto**.
 
 ## 🚀 Tecnologías y Habilidades
 
-- **Frontend**: React, Next.js, HTML5, CSS3, Tailwind CSS
-- **Backend**: Node.js, Express, API REST, GraphQL
-- **Bases de Datos**: MongoDB, MySQL, PostgreSQL
-- **Herramientas**: Git, GitHub, Docker, AWS, Vercel
-- **Otras habilidades**: Testing (Jest, Cypress), Arquitectura Serverless
+- **Frontend**: 
+  - [React](https://reactjs.org/), 
+  - [Redux](https://redux.js.org/), 
+  - JavaScript, 
+  - TypeScript
+
+- **Backend**: 
+  - [NestJS](https://nestjs.com/), 
+  - Node.js, 
+  - PostgreSQL
+
+- **DevOps**: 
+  - [Docker](https://www.docker.com/), 
+  - DockerHub, 
+  - [Nginx](https://www.nginx.com/), 
+  - AWS
+
+- **Integraciones**: 
+  - GitHub Actions
 
 ## 🌟 Proyectos Destacados
 
-### [Proyecto 1](https://github.com/tuusuario/proyecto1)
-_Descripción breve del proyecto 1_  
-Tecnologías: Next.js, Tailwind CSS, MongoDB
+### [yochambeo.com](https://yochambeo.com)
+_Plataforma para conectar y coordinar actividades de manera eficiente._  
+Tecnologías: NestJS, React, PostgreSQL
 
-### [Proyecto 2](https://github.com/tuusuario/proyecto2)
-_Descripción breve del proyecto 2_  
-Tecnologías: Node.js, Express, PostgreSQL
-
-## 📊 Estadísticas de GitHub
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=maxitrigo&show_icons=true&theme=dark&count_private=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=maxitrigo&layout=compact&theme=dark)
+## 🔥 Mi Racha de Commits
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=maxitrigo&theme=dark)](https://git.io/streak-stats)
 
 ## 📫 Contacto
 
-- **Email**: [tucorreo@mail.com](mailto:tucorreo@mail.com)
-- **GitHub**: [github.com/tuusuario](https://github.com/maxitrigo)
+- **Email**: [maxitrigo@gmail.com](mailto:maxitrigo@gmail.com)
+- **GitHub**: [github.com/maxitrigo](https://github.com/maxitrigo)
 
 ---
 
