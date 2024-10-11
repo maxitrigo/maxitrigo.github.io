@@ -5,44 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi CV</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #1a1a1a;
-            color: #f0f0f0;
+            font-family: 'Inter', sans-serif;
+            background-color: #000;
+            color: #fff;
             margin: 0;
             padding: 0;
         }
+
         .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px;
         }
+
         h1, h2, h3 {
-            color: #00bfff;
+            color: #fff;
+            font-weight: 800;
+            margin: 0 0 10px;
         }
+
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2rem;
+            border-bottom: 1px solid #333;
+            padding-bottom: 10px;
+        }
+
+        p, li {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #e0e0e0;
+        }
+
         .header {
             text-align: center;
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
+
+        .header p {
+            margin: 10px 0;
+        }
+
         .skills {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
         }
+
         .skill-item {
-            background-color: #333;
-            border-radius: 5px;
-            padding: 10px;
-            margin: 10px;
-            flex: 1 1 45%;
+            background-color: #111;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 20px;
             text-align: center;
+            font-weight: 600;
         }
+
         a {
-            color: #00bfff;
+            color: #0070f3;
             text-decoration: none;
         }
+
         a:hover {
             text-decoration: underline;
+        }
+
+        .experience-item {
+            margin-bottom: 30px;
+        }
+
+        .experience-item h3 {
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        .experience-item p {
+            font-size: 1rem;
+            margin: 0;
         }
     </style>
 </head>
@@ -56,42 +103,48 @@
 
         <section>
             <h2>Perfil</h2>
-            <p>Soy un programador con experiencia en desarrollo web, apasionado por las nuevas tecnologías y con habilidad para resolver problemas complejos de forma eficiente.</p>
+            <p>Soy un programador enfocado en crear experiencias de usuario rápidas y accesibles, con un fuerte enfoque en tecnologías JavaScript modernas, como Next.js y React.</p>
         </section>
 
         <section>
             <h2>Habilidades</h2>
             <div class="skills">
-                <div class="skill-item">HTML5 & CSS3</div>
-                <div class="skill-item">JavaScript & React</div>
-                <div class="skill-item">Node.js & Express</div>
-                <div class="skill-item">Git & GitHub</div>
-                <div class="skill-item">Bases de Datos SQL/NoSQL</div>
-                <div class="skill-item">API REST</div>
+                <div class="skill-item">Next.js</div>
+                <div class="skill-item">React</div>
+                <div class="skill-item">Node.js</div>
+                <div class="skill-item">TypeScript</div>
+                <div class="skill-item">API REST & GraphQL</div>
+                <div class="skill-item">Tailwind CSS</div>
             </div>
         </section>
 
         <section>
             <h2>Experiencia</h2>
-            <h3>Desarrollador Web - Empresa XYZ</h3>
-            <p><i>Marzo 2022 - Presente</i></p>
-            <ul>
-                <li>Desarrollo de aplicaciones web full-stack con React y Node.js.</li>
-                <li>Integración de APIs y manejo de bases de datos NoSQL.</li>
-            </ul>
+            <div class="experience-item">
+                <h3>Desarrollador Full Stack - Empresa XYZ</h3>
+                <p><i>Marzo 2022 - Presente</i></p>
+                <ul>
+                    <li>Desarrollo de aplicaciones web escalables utilizando Next.js y React.</li>
+                    <li>Implementación de arquitectura serverless con AWS y Vercel.</li>
+                </ul>
+            </div>
 
-            <h3>Programador Freelance</h3>
-            <p><i>Agosto 2020 - Febrero 2022</i></p>
-            <ul>
-                <li>Creación de sitios web personalizados para clientes.</li>
-                <li>Optimización de rendimiento y SEO en proyectos.</li>
-            </ul>
+            <div class="experience-item">
+                <h3>Programador Freelance</h3>
+                <p><i>Agosto 2020 - Febrero 2022</i></p>
+                <ul>
+                    <li>Diseño y desarrollo de sitios web modernos con performance optimizada.</li>
+                    <li>Integración de soluciones backend con Node.js y bases de datos NoSQL.</li>
+                </ul>
+            </div>
         </section>
 
         <section>
             <h2>Educación</h2>
-            <h3>Licenciatura en Ciencias de la Computación - Universidad ABC</h3>
-            <p><i>2018 - 2022</i></p>
+            <div class="experience-item">
+                <h3>Licenciatura en Ciencias de la Computación - Universidad ABC</h3>
+                <p><i>2018 - 2022</i></p>
+            </div>
         </section>
     </div>
 
