@@ -24,15 +24,14 @@ Tecnologías: Node.js, Express, PostgreSQL
 
 ## 📊 Estadísticas de GitHub
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=tuusuario&show_icons=true&theme=dark&count_private=true)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=maxitrigo&show_icons=true&theme=dark&count_private=true)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tuusuario&layout=compact&theme=dark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=maxitrigo&layout=compact&theme=dark)
 
 ## 📫 Contacto
 
 - **Email**: [tucorreo@mail.com](mailto:tucorreo@mail.com)
-- **LinkedIn**: [linkedin.com/in/tuusuario](https://linkedin.com/in/tuusuario)
-- **GitHub**: [github.com/tuusuario](https://github.com/tuusuario)
+- **GitHub**: [github.com/tuusuario](https://github.com/maxitrigo)
 
 ---
 
