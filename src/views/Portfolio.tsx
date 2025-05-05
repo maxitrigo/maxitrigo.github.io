@@ -4,7 +4,7 @@ import SplitType from "split-type";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { FaAws, FaDocker, FaGithub, FaLinkedin, FaReact, FaTwitter } from "react-icons/fa";
+import { FaAws, FaDocker, FaReact} from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiNestjs, SiNextdotjs } from "react-icons/si";
 import { IoMdArrowDroprightCircle } from "react-icons/io";
