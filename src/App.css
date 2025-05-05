@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    @apply bg-neutral-900
+    overflow-x-hidden
+}
+
+.rounded-4xl {
+    border-radius: 20%;
+}
+
+@font-face {
+    font-family: 'HarmondSemBdItaCond';
+    src: url('./fonts/Harmond/Harmond-SemBdItaCond.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Harmond';
+    src: url('./fonts/Harmond/Harmond-SemiBoldCondensed.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'NeueMetana';
+    src: url('./fonts/NeueMetana/NeueMetanaNext-SemiBold.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'NohemiMedium';
+    src: url('./fonts/Nohemi/Nohemi-Medium-BF6438cc581a509.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'NohemiSemiBold';
+    src: url('./fonts/Nohemi/Nohemi-SemiBold-BF6438cc588b5e5.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'NohemiBold';
+    src: url('./fonts/Nohemi/Nohemi-Bold-BF6438cc5812315.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Pilowlava';
+    src: url('./fonts/Pilowlava/Pilowlava-Regular.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Dirtyline';
+    src: url('./fonts/Dirtyline/Dirtyline.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Lactos';
+    src: url('./fonts/Lactos/Lactos.otf') format('opentype');
+    font-weight: normal;
+}
+
+.Lactos {
+    font-family: 'Lactos';
+}
+
+.Dirtyline {
+    font-family: 'Dirtyline';
+}
+
+.NohemiBold {
+    font-family: 'NohemiBold';
+}
+
+.NohemiSemiBold {
+    font-family: 'NohemiSemiBold';
+}
+
+.NohemiMedium {
+    font-family: 'NohemiMedium';
+}
+
+.HardmondItalic {
+    font-family: 'HarmondSemBdItaCond';
+}
+
+.NeueMetana {
+    font-family: 'NeueMetana';
+}
+
+.NunitoSans {
+    font-family: 'Nunito Sans';
+}
+
+.Pilowlava {
+    font-family: 'Pilowlava';
+}
+
+.aurora {
+    background: 
+      radial-gradient(600px at 30% 40%, rgba(0,255,128,0.2), transparent 80%),
+      radial-gradient(700px at 70% 30%, rgba(0,255,255,0.15), transparent 80%),
+      radial-gradient(500px at 50% 80%, rgba(255,0,255,0.1), transparent 80%),
+      radial-gradient(400px at 20% 10%, rgba(255,255,0,0.2), transparent 80%),
+      radial-gradient(800px at 80% 80%, rgba(255,165,0,0.15), transparent 80%),
+      radial-gradient(450px at 40% 60%, rgba(75,0,130,0.2), transparent 80%),
+      radial-gradient(550px at 60% 30%, rgba(255,20,147,0.1), transparent 80%);
+    background-color: #0b0c10;
+    background-size: 200% 200%;
+    animation: auroraAnimation 20s infinite linear;
+  }
+  
+  @keyframes auroraAnimation {
+    0% {
+      background-position: 10% 20%, 50% 40%, 30% 70%, 80% 20%, 60% 80%, 40% 30%, 90% 10%;
+    }
+    25% {
+      background-position: 50% 10%, 30% 60%, 70% 40%, 20% 80%, 60% 30%, 80% 50%, 40% 90%;
+    }
+    50% {
+      background-position: 70% 80%, 20% 30%, 50% 10%, 90% 40%, 30% 70%, 60% 50%, 10% 80%;
+    }
+    75% {
+      background-position: 30% 50%, 60% 90%, 20% 40%, 80% 10%, 70% 60%, 10% 30%, 50% 20%;
+    }
+    100% {
+      background-position: 10% 20%, 50% 40%, 30% 70%, 80% 20%, 60% 80%, 40% 30%, 90% 10%;
+    }
+  }
+  
