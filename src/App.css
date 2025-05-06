@@ -52,11 +52,6 @@ body {
     font-weight: normal;
 }
 
-@font-face {
-    font-family: 'Pilowlava';
-    src: url('./fonts/Pilowlava/Pilowlava-Regular.otf') format('opentype');
-    font-weight: normal;
-}
 
 @font-face {
     font-family: 'Dirtyline';
@@ -68,6 +63,16 @@ body {
     font-family: 'Lactos';
     src: url('./fonts/Lactos/Lactos.otf') format('opentype');
     font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Aiter';
+    src: url('./fonts/Aiter/Aiter.otf') format('opentype');
+    font-weight: normal;
+}
+
+.Aiter {
+    font-family: 'Aiter';
 }
 
 .Lactos {
@@ -102,9 +107,6 @@ body {
     font-family: 'Nunito Sans';
 }
 
-.Pilowlava {
-    font-family: 'Pilowlava';
-}
 
 .aurora {
     background: 

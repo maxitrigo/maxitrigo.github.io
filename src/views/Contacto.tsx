@@ -10,6 +10,7 @@ gsap.registerPlugin(ScrollTrigger);
 export const Contacto = () => {
     const titleRef = useRef<any>(null);
     const textRef = useRef<any>(null);
+    const buttonRef = useRef<any>(null);
 
     useGSAP(() => {
         const split = new SplitType(titleRef.current, {types: 'chars'})
@@ -24,8 +25,8 @@ export const Contacto = () => {
             ease: "back.out(2)",
             scrollTrigger: {
               trigger: titleRef.current,
-              start: 'top 80%',
-              end: 'top 50%',
+              start: 'top 60%',
+              end: 'top 30%',
               scrub: true,
               toggleActions: 'play none none reverse',
             },
@@ -35,7 +36,18 @@ export const Contacto = () => {
           opacity:0,
           scrollTrigger: {
               trigger: textRef.current,
-              start: 'top 80%',
+              start: 'top 60%',
+              end: 'top 50%',
+              scrub: true,
+              toggleActions: 'play none none reverse',
+              },
+        })
+
+        gsap.from(buttonRef.current, {
+          opacity:0,
+          scrollTrigger: {
+              trigger: textRef.current,
+              start: 'top 60%',
               end: 'top 50%',
               scrub: true,
               toggleActions: 'play none none reverse',
@@ -57,13 +69,13 @@ export const Contacto = () => {
             </p>
           </div>
       
-            <div className="flex items-center bg-green-500 NohemiMedium rounded-full p-4 m-10 hover:scale-105 transition">
+            <div ref={buttonRef} className="flex items-center bg-green-500 NohemiMedium rounded-full p-4 m-10 hover:scale-105 transition">
 
           <a
             href="https://wa.me/+59899978662"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-4"
+            className="p-4 text-sm sm:text-lg"
             >
             Hablame por WhatsApp
           </a>

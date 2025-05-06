@@ -49,13 +49,13 @@ export const Home = () => {
         ref={textRef} // Asignamos el ref para el texto principal
         className="text-white NeueMetana text-center flex flex-col"
       >
-        <span className="text-3xl">Get me</span>
-        <span className="text-4xl">on the court</span>
-        <span className="text-2xl">and I'm trouble</span>
+        <span className="text-3xl sm:text-5xl md:text-6xl 2xl:text-[150px]">Craft the Code</span>
+        <span className="text-2xl sm:text-4xl 2xl:text-[100px]">Launch the Vision</span>
+        {/* <span className="text-2xl">The Vision</span> */}
       </h1>
       <span
         ref={subTextRef} // Asignamos el ref para "Ignite the scroll"
-        className="text-2xl text-white HardmondItalic"
+        className="text-2xl text-white Lactos mt-4"
       >
         Ignite the scroll
       </span>
