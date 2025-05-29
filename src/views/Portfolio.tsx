@@ -8,18 +8,23 @@ import { FaAws, FaDocker, FaGitAlt, FaNodeJs, FaReact} from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiGithubactions, SiJavascript, SiNestjs, SiNextdotjs, SiNginx, SiRedux, SiTypescript } from "react-icons/si";
 import { IoMdArrowDroprightCircle } from "react-icons/io";
+import { CgVercel } from "react-icons/cg";
 
 gsap.registerPlugin(ScrollTrigger);
 
 export const Portfolio = () => {
   const project1 = useRef<any>(null);
-  const textRef = useRef<any>(null);
-  const imgRef = useRef<any>(null);
-  const titleRef = useRef<any>(null);
   const project2 = useRef<any>(null);
+  const project3 = useRef<any>(null);
+  const textRef = useRef<any>(null);
   const textRef2 = useRef<any>(null);
+  const textRef3 = useRef<any>(null);
+  const imgRef = useRef<any>(null);
   const imgRef2 = useRef<any>(null);
+  const imgRef3 = useRef<any>(null);
+  const titleRef = useRef<any>(null);
   const titleRef2 = useRef<any>(null);
+  const titleRef3 = useRef<any>(null);
   const portfolioRef = useRef<any>(null);
   const portfolioRightRef = useRef<any>(null);
   const tecLeftRef = useRef<any>(null);
@@ -27,10 +32,12 @@ export const Portfolio = () => {
   const techRef = useRef<any>(null);
   const buttonOneRef = useRef<any>(null);
   const buttonTwoRef = useRef<any>(null);
+  const buttonThreeRef = useRef<any>(null);
 
   useGSAP(() => {
     const split = new SplitType(titleRef.current, { types: 'chars' });
     const split2 = new SplitType(titleRef2.current, { types: 'chars' });
+    const split3 = new SplitType(titleRef3.current, { types: 'chars' });
 
     gsap.from(split.chars, {
       y: 100,
@@ -59,6 +66,23 @@ export const Portfolio = () => {
       ease: "back.out(2)",
       scrollTrigger: {
         trigger: project2.current,
+        start: 'top 50%',
+        end: 'top 20%',
+        scrub: true,
+        toggleActions: 'play none none reverse',
+      },
+    });
+
+    gsap.from(split3.chars, {
+      y: 100,
+      opacity: 0,
+      stagger: {
+        each: 0.05,
+        from: "random",
+      },
+      ease: "back.out(2)",
+      scrollTrigger: {
+        trigger: project3.current,
         start: 'top 50%',
         end: 'top 20%',
         scrub: true,
@@ -95,6 +119,18 @@ export const Portfolio = () => {
       y: 250,
       scrollTrigger: {
         trigger: project2.current,
+        start: 'top 40%',
+        end: 'top 20%',
+        scrub: true,
+        toggleActions: 'play none none reverse',
+      },
+    });
+
+    gsap.from(buttonThreeRef.current, {
+      opacity: 0,
+      y: 250,
+      scrollTrigger: {
+        trigger: project3.current,
         start: 'top 40%',
         end: 'top 20%',
         scrub: true,
@@ -174,6 +210,30 @@ export const Portfolio = () => {
       },
     });
 
+    gsap.from(textRef3.current, {
+      opacity: 0,
+      y: 250,
+      scrollTrigger: {
+        trigger: project3.current,
+        start: 'top 50%',
+        end: 'top top',
+        scrub: true,
+        toggleActions: 'play none none reverse',
+      },
+    });
+
+    gsap.from(imgRef3.current, {
+      opacity: 0,
+      y: 150,
+      scrollTrigger: {
+        trigger: project3.current,
+        start: 'top 80%',
+        end: 'top top',
+        scrub: true,
+        toggleActions: 'play none none reverse',
+      },
+    });
+
     gsap.fromTo(tecLeftRef.current,
       {
         x: "-30%",
@@ -244,7 +304,7 @@ export const Portfolio = () => {
         </div>
       </section>
       <section className="aurora mt-20">
-        <div className="bg-gradient-to-t from-transparent to-neutral-900 h-[100vh] flex flex-col md:flex-row justify-center items-center text-white p-4 lg:p-10" ref={project1}>
+        <div className="bg-gradient-to-t from-transparent to-neutral-900 flex flex-col md:flex-row justify-center items-center text-white p-4 lg:p-10" ref={project1}>
           <div className="w-full lg:w-1/2 p-4 lg:p-10 lg:ml-20">
             <h2
               ref={titleRef}
@@ -276,7 +336,7 @@ export const Portfolio = () => {
           </div>
         </div>
 
-        <div className="h-[100vh] flex flex-col md:flex-row justify-center items-center text-white p-4 lg:p-10 mt-40 mb-40 sm:mb-0 sm:mt-0 bg-gradient-to-b from-transparent to-neutral-900" ref={project2}>
+        <div className="flex flex-col md:flex-row justify-center items-center text-white p-4 lg:p-10 mt-40 mb-40 sm:mb-0 sm:mt-0 " ref={project2}>
           <div className="w-full lg:w-1/2 p-4 lg:p-10 lg:ml-20">
             <h2
               ref={titleRef2}
@@ -301,6 +361,39 @@ export const Portfolio = () => {
               <BiLogoPostgresql className="hover:text-[#336791] hover:scale-150 transform transition duration-300" />
               <FaDocker className="hover:text-[#2496ED] hover:scale-150 transform transition duration-300" />
               <FaAws className="hover:text-[#FF9900] hover:scale-150 transform transition duration-300" />
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-col md:flex-row justify-center items-center text-white p-4 lg:p-10 mt-40 mb-40 sm:mb-0 sm:mt-0 bg-gradient-to-b from-transparent to-neutral-900" ref={project3}>
+          <div className="w-full lg:w-1/2 p-4 lg:p-10 lg:ml-20">
+            <h2
+              ref={titleRef3}
+              className="text-4xl sm:text-5xl text-[red] font-bold italic lg:text-6xl"
+            >
+              MobileCer
+            </h2>
+            <p ref={textRef3} className="mt-6 text-base sm:text-xl">
+            Una aplicación que facilita a los usuarios el seguimiento en tiempo real del estado de la reparación de su celular, optimizando los tiempos y mejorando la comunicación con los clientes.
+            <br />Funcionalidades clave:
+            <br />Seguimiento del estado de reparación en tiempo real.
+            <br />Notificaciones por correo electrónico en cada etapa del proceso.
+            <br />Chatbot para resolver dudas y mejorar la experiencia del usuario.
+            <br />Sistema de diseño optimizado para una mejor usabilidad.
+            </p>
+            <button ref={buttonThreeRef} className="mt-6 bg-white text-black py-2 px-4 rounded-3xl font-bold hover:bg-[red] hover:scale-110 transform transition duration-300 flex items-center gap-2" onClick={() => window.open("https://pffront-fawn.vercel.app/" , "_blank")}>Ir a la Web <IoMdArrowDroprightCircle /></button>
+          </div>
+
+          <div className="w-full lg:w-1/2 flex flex-col items-center" ref={imgRef3}>
+            <img className="rounded-2xl max-w-[300px] h-[380px] object-cover" src="https://res.cloudinary.com/disfpwpwx/image/upload/v1748549034/Screenshot_2025-05-29_170246_njpsts.png" alt="Gymmetrics preview" />
+            <div className="flex gap-6 mt-4 text-2xl sm:text-3xl">
+              <SiNextdotjs className="hover:scale-150 transform transition duration-300" />
+              <RiTailwindCssFill className="hover:text-[#38B2AC] hover:scale-150 transform transition duration-300" />
+              <SiNestjs className="hover:text-[#E0234E] hover:scale-150 transform transition duration-300" />
+              <BiLogoPostgresql className="hover:text-[#336791] hover:scale-150 transform transition duration-300" />
+              <FaDocker className="hover:text-[#2496ED] hover:scale-150 transform transition duration-300" />
+              <CgVercel className="hover:scale-150 transform transition duration-300" />
+              <SiTypescript className="hover:text-[#007ACC] hover:scale-150 transform transition duration-300" />
             </div>
           </div>
         </div>

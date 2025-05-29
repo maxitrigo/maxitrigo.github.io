@@ -15,20 +15,6 @@ body {
 }
 
 @font-face {
-    font-family: 'HarmondSemBdItaCond';
-    src: url('./fonts/Harmond/Harmond-SemBdItaCond.otf') format('opentype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Harmond';
-    src: url('./fonts/Harmond/Harmond-SemiBoldCondensed.otf') format('opentype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
     font-family: 'NeueMetana';
     src: url('./fonts/NeueMetana/NeueMetanaNext-SemiBold.otf') format('opentype');
     font-weight: normal;
@@ -37,18 +23,6 @@ body {
 @font-face {
     font-family: 'NohemiMedium';
     src: url('./fonts/Nohemi/Nohemi-Medium-BF6438cc581a509.otf') format('opentype');
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: 'NohemiSemiBold';
-    src: url('./fonts/Nohemi/Nohemi-SemiBold-BF6438cc588b5e5.otf') format('opentype');
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: 'NohemiBold';
-    src: url('./fonts/Nohemi/Nohemi-Bold-BF6438cc5812315.otf') format('opentype');
     font-weight: normal;
 }
 
@@ -83,20 +57,8 @@ body {
     font-family: 'Dirtyline';
 }
 
-.NohemiBold {
-    font-family: 'NohemiBold';
-}
-
-.NohemiSemiBold {
-    font-family: 'NohemiSemiBold';
-}
-
 .NohemiMedium {
     font-family: 'NohemiMedium';
-}
-
-.HardmondItalic {
-    font-family: 'HarmondSemBdItaCond';
 }
 
 .NeueMetana {
