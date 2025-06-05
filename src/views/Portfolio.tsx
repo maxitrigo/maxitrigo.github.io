@@ -6,7 +6,7 @@ import { useGSAP } from "@gsap/react";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaAws, FaDocker, FaGitAlt, FaNodeJs, FaReact} from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { SiAdobe, SiCanva, SiCoreldraw, SiGithubactions, SiJavascript, SiNestjs, SiNextdotjs, SiNginx, SiRedux, SiTypescript } from "react-icons/si";
+import { SiAdobe, SiCoreldraw, SiGithubactions, SiJavascript, SiNestjs, SiNextdotjs, SiNginx, SiRedux, SiTypescript } from "react-icons/si";
 import { IoMdArrowDroprightCircle } from "react-icons/io";
 import { CgVercel } from "react-icons/cg";
 import { DiPhotoshop } from "react-icons/di";
@@ -447,7 +447,7 @@ export const Portfolio = () => {
           </div>
 
           <div className="w-full lg:w-1/2 flex flex-col items-center" ref={imgRef3}>
-            <img className="rounded-2xl max-w-[300px] h-[380px] object-cover" src="https://res.cloudinary.com/disfpwpwx/image/upload/v1748549034/Screenshot_2025-05-29_170246_njpsts.png" alt="Gymmetrics preview" />
+            <img className="rounded-2xl w-[300px] h-[380px] object-cover" src="https://res.cloudinary.com/disfpwpwx/image/upload/v1748549034/Screenshot_2025-05-29_170246_njpsts.png" alt="Gymmetrics preview" />
             <div className="flex gap-6 mt-4 text-2xl sm:text-3xl">
               <SiNextdotjs className="hover:scale-150 transform transition duration-300" />
               <RiTailwindCssFill className="hover:text-[#38B2AC] hover:scale-150 transform transition duration-300" />
@@ -478,7 +478,7 @@ export const Portfolio = () => {
           </div>
 
           <div className="w-full lg:w-1/2 flex flex-col items-center" ref={imgRef4}>
-            <img className="rounded-2xl max-w-[300px] h-[380px] object-cover" src="https://res.cloudinary.com/disfpwpwx/image/upload/v1749155210/CAR7_zl2iw5.jpg" alt="Gymmetrics preview" />
+            <img className="rounded-2xl w-[300px] h-[380px] object-cover" src="https://res.cloudinary.com/disfpwpwx/image/upload/v1749155210/CAR7_zl2iw5.jpg" alt="Gymmetrics preview" />
             <div className="flex gap-6 mt-4 text-2xl sm:text-3xl">
               <DiPhotoshop className="hover:scale-150 transform transition duration-300" />
               <SiCoreldraw className="hover:scale-150 transform transition duration-300" />
