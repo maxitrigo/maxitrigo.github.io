@@ -6,9 +6,10 @@ import { useGSAP } from "@gsap/react";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaAws, FaDocker, FaGitAlt, FaNodeJs, FaReact} from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { SiGithubactions, SiJavascript, SiNestjs, SiNextdotjs, SiNginx, SiRedux, SiTypescript } from "react-icons/si";
+import { SiAdobe, SiCanva, SiCoreldraw, SiGithubactions, SiJavascript, SiNestjs, SiNextdotjs, SiNginx, SiRedux, SiTypescript } from "react-icons/si";
 import { IoMdArrowDroprightCircle } from "react-icons/io";
 import { CgVercel } from "react-icons/cg";
+import { DiPhotoshop } from "react-icons/di";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -16,15 +17,19 @@ export const Portfolio = () => {
   const project1 = useRef<any>(null);
   const project2 = useRef<any>(null);
   const project3 = useRef<any>(null);
+  const project4 = useRef<any>(null);
   const textRef = useRef<any>(null);
   const textRef2 = useRef<any>(null);
   const textRef3 = useRef<any>(null);
+  const textRef4 = useRef<any>(null);
   const imgRef = useRef<any>(null);
   const imgRef2 = useRef<any>(null);
   const imgRef3 = useRef<any>(null);
+  const imgRef4 = useRef<any>(null);
   const titleRef = useRef<any>(null);
   const titleRef2 = useRef<any>(null);
   const titleRef3 = useRef<any>(null);
+  const titleRef4 = useRef<any>(null);
   const portfolioRef = useRef<any>(null);
   const portfolioRightRef = useRef<any>(null);
   const tecLeftRef = useRef<any>(null);
@@ -33,11 +38,13 @@ export const Portfolio = () => {
   const buttonOneRef = useRef<any>(null);
   const buttonTwoRef = useRef<any>(null);
   const buttonThreeRef = useRef<any>(null);
+  const buttonfourRef = useRef<any>(null);
 
   useGSAP(() => {
     const split = new SplitType(titleRef.current, { types: 'chars' });
     const split2 = new SplitType(titleRef2.current, { types: 'chars' });
     const split3 = new SplitType(titleRef3.current, { types: 'chars' });
+    const split4 = new SplitType(titleRef4.current, { types: 'chars' });
 
     gsap.from(split.chars, {
       y: 100,
@@ -90,6 +97,23 @@ export const Portfolio = () => {
       },
     });
 
+    gsap.from(split4.chars, {
+      y: 100,
+      opacity: 0,
+      stagger: {
+        each: 0.05,
+        from: "random",
+      },
+      ease: "back.out(2)",
+      scrollTrigger: {
+        trigger: project4.current,
+        start: 'top 50%',
+        end: 'top 20%',
+        scrub: true,
+        toggleActions: 'play none none reverse',
+      },
+    });
+
     gsap.from(textRef.current, {
       opacity: 0,
       y: 250,
@@ -131,6 +155,18 @@ export const Portfolio = () => {
       y: 250,
       scrollTrigger: {
         trigger: project3.current,
+        start: 'top 40%',
+        end: 'top 20%',
+        scrub: true,
+        toggleActions: 'play none none reverse',
+      },
+    });
+
+    gsap.from(buttonfourRef.current, {
+      opacity: 0,
+      y: 250,
+      scrollTrigger: {
+        trigger: project4.current,
         start: 'top 40%',
         end: 'top 20%',
         scrub: true,
@@ -234,6 +270,30 @@ export const Portfolio = () => {
       },
     });
 
+    gsap.from(textRef4.current, {
+      opacity: 0,
+      y: 250,
+      scrollTrigger: {
+        trigger: project4.current,
+        start: 'top 50%',
+        end: 'top top',
+        scrub: true,
+        toggleActions: 'play none none reverse',
+      },
+    });
+
+    gsap.from(imgRef4.current, {
+      opacity: 0,
+      y: 150,
+      scrollTrigger: {
+        trigger: project4.current,
+        start: 'top 80%',
+        end: 'top top',
+        scrub: true,
+        toggleActions: 'play none none reverse',
+      },
+    });
+
     gsap.fromTo(tecLeftRef.current,
       {
         x: "-30%",
@@ -308,7 +368,7 @@ export const Portfolio = () => {
           <div className="w-full lg:w-1/2 p-4 lg:p-10 lg:ml-20">
             <h2
               ref={titleRef}
-              className="text-4xl sm:text-5xl text-[#e4ff00] font-extrabold italic lg:text-6xl"
+              className="text-4xl sm:text-5xl font-extrabold italic lg:text-6xl"
             >
               GYMmetrics
             </h2>
@@ -368,11 +428,11 @@ export const Portfolio = () => {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-center items-center text-white p-4 lg:p-10 mt-40 mb-40 sm:mb-0 sm:mt-0 bg-gradient-to-b from-transparent to-neutral-900" ref={project3}>
+        <div className="flex flex-col md:flex-row justify-center items-center text-white p-4 lg:p-10 mt-40 mb-40 sm:mb-0 sm:mt-0 " ref={project3}>
           <div className="w-full lg:w-1/2 p-4 lg:p-10 lg:ml-20">
             <h2
               ref={titleRef3}
-              className="text-4xl sm:text-5xl text-[red] font-bold italic lg:text-6xl"
+              className="text-4xl sm:text-5xl font-bold italic lg:text-6xl"
             >
               MobileCer
             </h2>
@@ -396,6 +456,33 @@ export const Portfolio = () => {
               <FaDocker className="hover:text-[#2496ED] hover:scale-150 transform transition duration-300" />
               <CgVercel className="hover:scale-150 transform transition duration-300" />
               <SiTypescript className="hover:text-[#007ACC] hover:scale-150 transform transition duration-300" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col md:flex-row justify-center items-center text-white p-4 lg:p-10 mt-40 mb-40 sm:mb-0 sm:mt-0 bg-gradient-to-b from-transparent to-neutral-900" ref={project4}>
+          <div className="w-full lg:w-1/2 p-4 lg:p-10 lg:ml-20">
+            <h2
+              ref={titleRef4}
+              className="text-4xl sm:text-5xl font-bold italic lg:text-6xl"
+            >
+              Peugeot
+            </h2>
+            <p ref={textRef4} className="mt-6 text-base sm:text-xl">
+              Rebranding Peugeot: Tradition and Future in a Bold Visual Identity  
+              <br />Lion + Fleur-de-Lis Isotype: Strength and French heritage in a modern, timeless symbol.  
+              <br />Retro Shield: Inspired by mid-20th century rallies and the Dakar—perfect for classic models and special editions.  
+              <br />Full Versatility: Designed to adapt across apps, vehicles, merchandise, and events.  
+              <br />Emotional Impact: Revives Peugeot’s legacy and reshapes it into a compelling contemporary story.  
+            </p>
+            <button ref={buttonfourRef} className="mt-6 bg-white text-black py-2 px-4 rounded-3xl font-bold hover:scale-110 transform transition duration-300 flex items-center gap-2" onClick={() => window.open("https://www.behance.net/gallery/227553959/Peugeot-Case-Study" , "_blank")}>Go to<IoMdArrowDroprightCircle /></button>
+          </div>
+
+          <div className="w-full lg:w-1/2 flex flex-col items-center" ref={imgRef4}>
+            <img className="rounded-2xl max-w-[300px] h-[380px] object-cover" src="https://res.cloudinary.com/disfpwpwx/image/upload/v1749155210/CAR7_zl2iw5.jpg" alt="Gymmetrics preview" />
+            <div className="flex gap-6 mt-4 text-2xl sm:text-3xl">
+              <DiPhotoshop className="hover:scale-150 transform transition duration-300" />
+              <SiCoreldraw className="hover:scale-150 transform transition duration-300" />
+              <SiAdobe className="hover:scale-150 transform transition duration-300" />
             </div>
           </div>
         </div>
@@ -475,7 +562,15 @@ export const Portfolio = () => {
               {
                 name: 'GitHub Actions',
                 icon: <SiGithubactions />,
-              }
+              },
+              {
+                name: 'Photoshop',
+                icon: <DiPhotoshop />,
+              },
+              {
+                name: 'CorelDraw',
+                icon: <SiCoreldraw />,
+              },
             ].map((skill, index) => (
               <div
                 key={index}
